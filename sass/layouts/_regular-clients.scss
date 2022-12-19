@@ -1,0 +1,49 @@
+.regular-clients {
+    padding: 94px 0px 94px 0px;
+}
+
+.clients-names {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.box-main-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 30px;
+}
+
+.box-bottom {
+    width: 170px;
+    height: 92px;
+}
+
+.link-box-bottom {
+    @extend %scaling; 
+    color: #AFB1B8;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: color 200ms linear, border 200ms linear;
+    fill: #AFB1B8;
+}
+
+.link-box-bottom:hover,
+.link-box-bottom:focus {
+    color: var(--brand-light-blue);
+    border-color: var(--brand-light-blue);
+}
+
+.link-box-bottom:hover .box-bottom-icon,
+.link-box-bottom:focus .box-bottom-icon {
+    fill: currentColor;
+}

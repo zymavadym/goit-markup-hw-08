@@ -1,0 +1,48 @@
+.hero {
+    text-align: center;
+    background-color: #2F303A;
+    font-weight: 700;
+    font-family: inherit;
+    padding: 200px 0px 200px 0px;
+    background-image: url(../images/img-background-main\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-background-main\ .jpg);
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636; 
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--brand-white);
+    margin: 0px 252px 0px 252px;
+}
+
+.button-service {
+    min-width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--brand-white);
+    background: var(--brand-light-blue); 
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    transition: background-color 200ms linear;
+}
+
+.button-service:hover,
+.button-service:focus {
+    background-color: rgb(64, 66, 206);
+}
+
+.button-service:active {
+    background-color: var(--brand-dark-blue);
+}

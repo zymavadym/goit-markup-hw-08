@@ -1,0 +1,175 @@
+.web-footer {
+    color: var(--brand-white);
+}
+
+.footer { 
+    height: 252px;
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.address {
+    list-style: none;
+}
+
+.adress-map {
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: var(--brand-white);
+    text-decoration: none;
+}
+
+.link { 
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.adress-map:hover,
+.link:hover,
+.adress-map:focus,
+.link:focus {
+    color: var(--brand-light-blue);
+}
+
+.adress-map-link {
+    margin-top: 20px;
+}
+
+.mail-link,
+.phone-link {
+    margin-top: 9px;
+}
+
+.link,
+.adress-map {
+    transition: color 300ms linear;
+}
+
+.subscribe {
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-white);
+    font-weight: 700;
+}
+
+.footer-social {
+    margin-left: 70px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social-item {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-social-link {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    @extend %scaling; 
+    transition: background-color 200ms linear;
+}
+
+.footer-social-sign {
+    fill: var(--brand-white);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #2196F3;
+}
+
+.footer-social-link:active {
+    background-color: var(--brand-dark-blue);
+}
+
+.footer-share-form {
+    display: block;
+    margin-left: auto;
+}
+
+.footer-share-div {
+    display: flex;
+}
+
+.share-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: #2F303A;
+    margin-right: 12px;
+    color: var(--brand-white);
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: 200ms;
+}
+
+.share-input:hover {
+    border-color: var(--brand-light-blue);
+}
+
+.share-input:focus {
+    border-color: rgb(64, 66, 206);
+}
+
+.button-follow {
+    @extend %scaling; 
+    width: 200px;
+    height: 50px;
+    background-color: var(--brand-light-blue);
+    border-radius: 4px;
+    border: none;
+    color: var(--brand-white);
+    letter-spacing: 0.06em;
+    font-weight: 450;
+    font-size: 16px;
+    transition: 200ms;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button-follow:hover {
+    background-color: rgb(64, 66, 206);
+}
+
+.button-follow:focus {
+    background-color: var(--brand-dark-blue);
+}
+
+.share-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--brand-white);
+    margin-left: 10px;
+}
+
+.title-share {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--brand-white);
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.boxes-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.div-footer {
+    display: block;
+}

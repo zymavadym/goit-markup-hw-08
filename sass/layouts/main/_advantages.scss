@@ -1,0 +1,34 @@
+.main {
+    padding-top: 94px;
+}
+
+.advantages { 
+    text-align: center;
+    font-size: 25px;
+    padding-top: 60px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+}
+
+.adv-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.plan,
+.tasks {
+    width: 270px;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: var(--brand-grey);
+    margin-top: 10px;
+}

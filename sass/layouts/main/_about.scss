@@ -1,0 +1,41 @@
+.images-employment {
+    display: block;
+}
+
+.section-about {
+    padding: 94px 0px 94px 0px;
+}
+
+.about {
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    color: var(--brand-black);
+    margin-bottom: 50px;
+}
+
+.info {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.images {
+    position: relative;
+    display: block;
+}
+
+.label-text {
+    @extend %scaling; 
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    height: 70px;
+    color: var(--brand-white);
+    background-color: rgba(47, 48, 58, 0.8);
+    text-align: center;
+    opacity: 1;
+}
